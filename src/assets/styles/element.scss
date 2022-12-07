@@ -1,0 +1,57 @@
+// :root {
+//   --theme-primary: #ff9000;
+// }
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    'white': #ffffff,
+    'black': #000000,
+    "primary": (
+      "base": #ff9000,
+    ),
+    "success": (
+      "base": #21ba45,
+    ),
+    "warning": (
+      "base": #f2711c,
+    ),
+    "danger": (
+      "base": #db2828,
+    ),
+    "error": (
+      "base": #db2828,
+    ),
+    "info": (
+      "base": #42b8dd,
+    ),
+  ),
+  $font-size:(
+    'extra-large': 20px,
+    'large': 18px,
+    'medium': 16px,
+    'base': 16px,
+    'small': 13px,
+    'extra-small': 12px,
+  ),
+
+
+  $button-padding-horizontal: (
+    // "default": 80px
+  )
+);
+
+
+.el-breadcrumb {
+  font-size: 16px;
+}
+.el-header {
+  padding: 0px
+}
+.el-menu{
+  border-right: none;
+}
+.el-main{
+  background: #f9f9f9;
+}
+.el-drawer__header{
+  border-bottom: 1px solid #eee;
+}
